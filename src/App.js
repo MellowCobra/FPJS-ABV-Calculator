@@ -2,7 +2,7 @@ import { diff, patch } from 'virtual-dom'
 import createElement from 'virtual-dom/create-element'
 
 export default function app(initModel, update, view, node) {
-    let model = initModel
+    let model = update({ type: null }, initModel) // Calculate initial abv based on defaults
     let currentView = view(dispatch, model)
     let rootNode = createElement(currentView)
 

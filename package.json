@@ -29,6 +29,7 @@
         "babel-preset-env": "^1.7.0",
         "hyperscript": "^2.0.2",
         "hyperscript-helpers": "^3.0.3",
+        "ramda": "^0.25.0",
         "virtual-dom": "^2.1.1",
         "webpack": "^4.8.3",
         "webpack-cli": "^2.1.3",

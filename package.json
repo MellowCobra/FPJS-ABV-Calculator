@@ -1,6 +1,6 @@
 {
     "name": "fpjs-abv-calculator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple web app that calculates alcohol-by-volume from specific gravity readings. Utilizes a functional style of javascript.",
     "main": "src/index.js",
     "scripts": {
